@@ -1,7 +1,6 @@
 import argparse
 import sys
 
-
 def main():
     parser = argparse.ArgumentParser(
         description="CLI tool with real error handling"
@@ -26,7 +25,6 @@ def main():
     except Exception as error:
         print(f"Unexpected error: {error}", file=sys.stderr)
         sys.exit(1)
-
 
 if __name__ == "__main__":
     main()
