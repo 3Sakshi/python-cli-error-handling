@@ -20,6 +20,7 @@ python cli_tool.py 10
 
 Output:
 Result: 5.0
+```bash
 
 ### Custom divisor
 python cli_tool.py 10 --divide-by 5
