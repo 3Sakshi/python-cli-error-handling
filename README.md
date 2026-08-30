@@ -22,21 +22,18 @@ Output:
 Result: 5.0
 
 ### Custom divisor
-```bash
 python cli_tool.py 10 --divide-by 5
 
 Output:
 Result: 2.0
 
 ### Division by zero
-```bash
 python cli_tool.py 10 --divide-by 0
 
 Output:
 Error: Cannot divide by zero.
 
 ### Help
-```bash
 python cli_tool.py --help
 
 ## Error Handling
