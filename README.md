@@ -39,7 +39,9 @@ Error: Cannot divide by zero.
 ```
 
 ### Help
+```bash
 python cli_tool.py --help
+```
 
 ## Error Handling
 The program provides user-friendly error messages instead of exposing raw Python tracebacks for expected errors.
