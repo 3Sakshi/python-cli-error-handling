@@ -42,8 +42,8 @@ The program provides user-friendly error messages instead of exposing raw Python
 
 ## Project Structure
 python-cli-error-handling/
-├── cli_tool.py
-└── README.md
+   -cli_tool.py
+   -README.md
 
 ## Author
 Sakshi Tayade
