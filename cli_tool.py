@@ -1,7 +1,6 @@
 import argparse
 import sys
 
-
 def main():
     parser = argparse.ArgumentParser(
         description="A CLI tool that safely divides an integer by a divisor.",
