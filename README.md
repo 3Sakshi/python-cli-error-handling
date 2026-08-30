@@ -21,28 +21,28 @@ python cli_tool.py 10
 Output:
 Result: 5.0
 
-###Custom divisor
+### Custom divisor
 python cli_tool.py 10 --divide-by 5
 
 Output:
 Result: 2.0
 
-###Division by zero
+### Division by zero
 python cli_tool.py 10 --divide-by 0
 
 Output:
 Error: Cannot divide by zero.
 
-###Help
+### Help
 python cli_tool.py --help
 
-##Error Handling
+## Error Handling
 The program provides user-friendly error messages instead of exposing raw Python tracebacks for expected errors.
 
-##Project Structure
+## Project Structure
 python-cli-error-handling/
 ├── cli_tool.py
 └── README.md
 
-##Author
+## Author
 Sakshi Tayade
