@@ -1,6 +1,7 @@
 # python-cli-error-handling
 A simple command-line interface (CLI) tool built in Python that safely divides an integer by a divisor and provides clear error messages.
 
+
 ## Features
 - Accepts an integer from the command line.
 - Supports a custom divisor using `--divide-by`.
@@ -9,8 +10,10 @@ A simple command-line interface (CLI) tool built in Python that safely divides a
 - Provides helpful `--help` information.
 - Uses appropriate exit codes for errors.
 
+
 ## Requirements
 - Python 3.x
+
 
 ## Usage
 Run the program with:
@@ -30,6 +33,7 @@ Output:
 Result: 2.0
 ```
 
+
 ### Division by zero
 ```bash
 python cli_tool.py 10 --divide-by 0
@@ -37,6 +41,7 @@ python cli_tool.py 10 --divide-by 0
 Output:
 Error: Cannot divide by zero.
 ```
+
 
 ### Help
 ```bash
@@ -46,10 +51,12 @@ python cli_tool.py --help
 ## Error Handling
 The program provides user-friendly error messages instead of exposing raw Python tracebacks for expected errors.
 
+
 ## Project Structure
 python-cli-error-handling/
    - cli_tool.py
    - README.md
+
 
 ## Author
 Sakshi Tayade
