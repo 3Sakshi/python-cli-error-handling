@@ -1,4 +1,4 @@
-# python-cli-error-handling
+# Python CLI Error Handling
 A simple command-line interface (CLI) tool built in Python that safely divides an integer by a divisor and provides clear error messages.
 
 
